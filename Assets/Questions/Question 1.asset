@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469cbf9c61e4b4044b2abd31ebefeca8, type: 3}
   m_Name: Question 1
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: Apa hayo?
+  answers:
+  - Hayo
+  - Apa
+  - Dia
+  - Susah
+  correctAnswerIndex: 0
