@@ -285,7 +285,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 1439609388}
-  question: {fileID: 11400000, guid: de85957d434c61b429ea65aa7187d343, type: 2}
+  questions:
+  - {fileID: 11400000, guid: de85957d434c61b429ea65aa7187d343, type: 2}
+  - {fileID: 11400000, guid: 4c3a21d1e6db6624bbb97eafa4520931, type: 2}
+  - {fileID: 11400000, guid: 1a35b291dab285b4eb935a3f9ba320f2, type: 2}
+  - {fileID: 11400000, guid: 3f44666fecabc24449a46808f70f3e3b, type: 2}
+  - {fileID: 11400000, guid: 449b2df86f6da474d959bdfe3bd48dd9, type: 2}
   answerButtons:
   - {fileID: 942328842}
   - {fileID: 1700955514}
@@ -293,6 +298,7 @@ MonoBehaviour:
   - {fileID: 703513830}
   defaultAnswerSprite: {fileID: 21300000, guid: e4332c572a2447846bc6f6335d0a75dc, type: 3}
   correctAnswerSprite: {fileID: 21300000, guid: db71bdab9cc64ce468cb27726b551c04, type: 3}
+  timerImage: {fileID: 2135730279}
 --- !u!114 &290424508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,7 +414,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToCompleteQuestion: 30
   timeToShowCorrectAnswer: 10
+  loadNextQuestion: 1
   isAnsweringQuestion: 0
+  fillFraction: 0
 --- !u!4 &326236732
 Transform:
   m_ObjectHideFlags: 0
